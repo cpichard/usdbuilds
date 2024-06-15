@@ -84,7 +84,7 @@ jobs:
         if: env.exists == 'false' && matrix.os == 'windows-2022'
         run: |
           choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'
-          choco install tinyxml2
+          vcpkg install tinyxml2
 
       - name: Clone USD
         if: env.exists == 'false'
