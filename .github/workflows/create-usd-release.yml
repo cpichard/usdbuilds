@@ -8,7 +8,7 @@ on:
       usdVersion:
         description: 'USD Version to build (e.g., 2308, 2403)'
         required: true
-        default: '2308'
+        default: '2405'
 
 jobs:
   build:
